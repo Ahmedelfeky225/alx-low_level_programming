@@ -8,9 +8,12 @@
 */
 int main(void)
 {
-	for (char low = 'a'; low <= 'z'; low++)
+	char low;
+	char upper;
+
+	for (low = 'a'; low <= 'z'; low++)
 		putchar(low);
-	for (char upper = 'A'; upper <= 'Z'; ++upper)
+	for (upper = 'A'; upper <= 'Z'; ++upper)
 		putchar(upper);
 		putchar('\n');
 
