@@ -1,22 +1,17 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_numbers -  checks for checks for a digit (0 through 9).
  *
- * Return: Always 0 (Success)
-*/
-
-int main(void)
-{
-print_numbers();
-return (0);
-}
-
+ * Return: Always 0.
+ */
 void print_numbers(void)
 {
-	for (int i = 0; i <= 9; i++)
-{
-	putchar(i);
-	putchar('\n');
-}
+	int c;
+
+	for (c = 48; c < 58; c++)
+	{
+	_putchar(c);
+	}
+	_putchar('\n');
 }
